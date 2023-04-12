@@ -49,5 +49,13 @@ R² (R-Squared or the coefficient of determination) is a statistical measure in 
 
 $R² = \\large\\frac{\\sum( y_i - \\bar{y})²} {\\sum( y_i - \\bar{y})² + \\sum{u}_{i}²}$
 
-R² can take any values between 0 to 1. Although the statistical measure provides some useful insights regarding the regression model, but it does not disclose information about the causation relationship between the independent and dependent variables and does not indicate the correctness of the regression model.a
+R² can take any values between 0 to 1. Although the statistical measure provides some useful insights regarding the regression model, but it does not disclose information about the causation relationship between the independent and dependent variables and does not indicate the correctness of the regression model.
+
+## F-Test
+
+To check if any of the independent variables in the multiple linear regression model are significant, the F-Test is used. The F-Test is used to test the following null hypothesis and alternative hypothesis:
+
+$H0: {\\beta}_{1} = {\\beta}_{1} = ... = {\\beta}_{k} = 0$
+
+$H1: {\\beta}_{j} ≠ 0$, for at least one value of j. In other words, at least **one** ${\\beta}$  is significant (${\\beta}_{j} ≠ 0$, considering significance level).
 

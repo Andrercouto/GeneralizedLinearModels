@@ -61,7 +61,7 @@ $H1: {\\beta}_1 ≠ 0$ or {\\beta}_2 ≠ 0$ or {\\beta}_k ≠ 0$, for at least o
 
 The test statistic is needed assuming that the null hypothesis is true:
 
-$\\LARGE \\frac{\\frac{\\sum( y_i - \\bar{y})²} {k}}{\\frac{\\sum{u}_i²} {n - k - 1}}$
+$![\Large \\frac{\\frac{\\sum( y_i - \\bar{y})²} {k}}{\\frac{\\sum{u}_i²} {n - k - 1}}]$
 
 
 

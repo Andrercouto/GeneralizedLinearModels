@@ -29,4 +29,4 @@ ${u}$ = error term.
 
 In simple linear regression, the equation is represented by:
 
-$y_i = {\\alpha} + {\\beta}_1 . x_i +  {\\beta} . x_i + {\\beta} . x_i + u_i$
+$y_i = {\\alpha} + {\\beta}_1 . x_1_i +  {\\beta}_2 . x_2_i + ... + {\\beta}_2 . x_k_i + u_i$

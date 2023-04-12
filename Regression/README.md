@@ -4,7 +4,6 @@ Simple and multiple linear regression are statistical methods used to model the 
 
 Multiple linear regression is an extension of simple linear regression that allows for modeling the relationship between more than one predictor variable and the response variable. In multiple linear regression, the goal is to find the line of best fit that describes the relationship between the response variable and multiple predictor variables. This line can then be used to make predictions about the response variable based on the values of the predictor variables.
 
-a
 # Relevant Concepts
 
 ## Simple Linear Regression Formula
@@ -75,6 +74,12 @@ While the F-test check if any of the independent variables, the T-test is used t
 In a linear regression model, it is important to check the assumption of normality of the residuals. The residuals are the differences between the actual values of the dependent variable and the predicted values from the regression model.
 
 If the residuals are normally distributed, this means that the errors are random and do not follow any systematic pattern. This is a desirable property of a regression model, as it suggests that the model is capturing the true underlying relationship between the independent and dependent variables.
+
+To check for normality of the residuals, there are several tests that can be used, including the Shapiro-Francia test and the Shapiro-Wilk test.
+
+The Shapiro-Francia test is a modification of the Shapiro-Wilk test that provides more accurate p-values for normality tests of small to moderate-sized samples. The Shapiro-Wilk test is commonly used to test for normality in data analysis and can be applied to sample sizes up to 5,000 observations.
+
+Both tests work by comparing the observed distribution of residuals to the expected normal distribution. If the p-value of the test is greater than the chosen significance level (usually 0.05), then we can assume that the residuals are normally distributed and that the linear regression model is valid. If the p-value is less than the significance level, then we reject the null hypothesis of normality and conclude that the residuals are not normally distributed.
 
 
 ## Heteroscedasticity

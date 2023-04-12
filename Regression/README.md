@@ -27,8 +27,14 @@ ${u}$ = error term.
 
 ## Multiple Linear Regression Formula
 
-In a similar way, the Multiple Linear Regression equation is given by:
+In multiple linear regression, the equation is represented by:
 
-$y_i = {\\alpha} + {\\beta}_1 . x_1i +  {\\beta}_2 . x_2i + ... + {\\beta}_2 . x_ki + u_i$
+$y_i = {\alpha} + {\beta}1 x{1i} + {\beta}2 x{2i} + ... + {\beta}k x{ki} + u_i$
 
-Where there's one ${\\beta}$ for each explanatory variable.
+Where:
+
+$y$ = dependent variable;
+$x_{1}, x_{2},..., x_{k}$ = explanatory variables;
+${\alpha}$ = intercept (constant term);
+${\beta}_1, {\beta}_2,..., {\beta}_k$ = explanatory variable coefficients;
+$u$ = error term.

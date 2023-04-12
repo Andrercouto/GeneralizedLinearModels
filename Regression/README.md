@@ -76,3 +76,11 @@ In a linear regression model, it is important to check the assumption of normali
 
 If the residuals are normally distributed, this means that the errors are random and do not follow any systematic pattern. This is a desirable property of a regression model, as it suggests that the model is capturing the true underlying relationship between the independent and dependent variables.
 
+
+## Heteroscedasticity
+
+Heteroscedasticity is a statistical phenomenon where the variance of the error terms in a regression model is not constant across the range of the predictor variables. This can be represented by the following equation:
+
+$Var(u_i)=\sigma^2_i$
+
+Where $u_i$ is the error term for the ith observation and $\sigma^2_i$ is the variance of the error term. In the presence of heteroscedasticity, the ordinary least squares (OLS) estimator of the regression coefficients is no longer the best linear unbiased estimator (BLUE), and the estimated standard errors of the coefficients may be biased. This can lead to incorrect inference and unreliable predictions. There are various tests for detecting heteroscedasticity, such as the Breusch-Pagan test and the White test, and various remedies, such as weighted least squares (WLS) and robust standard errors.

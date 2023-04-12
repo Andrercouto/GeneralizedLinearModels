@@ -31,4 +31,4 @@ In a similar way, the Multiple Linear Regression equation is given by:
 
 $y_i = {\\alpha} + {\\beta}_1 . x_1i +  {\\beta}_2 . x_2i + ... + {\\beta}_2 . x_ki + u_i$
 
-Where any ${\\beta}_1,2,...,k$
+Where there's one ${\\beta}$ for each explanatory variable.

@@ -42,3 +42,12 @@ ${\alpha}$ = intercept (constant term);
 ${\beta}_1, {\beta}_2,..., {\beta}_k$ = explanatory variable coefficients;
 
 $u$ = error term.
+
+## R²
+
+R² (R-Squared or the coefficient of determination) is a statistical measure in a regression model that determines the proportion of variance in the dependent variable that can be explained by the independent variable. In other words, r-squared shows how well the data fit the regression model (the goodness of fit).
+
+$R² = \\large\\frac{\\sum( y_i - \\bar{y})²} {\\sum( y_i - \\bar{y})² + \\sum{u}_{i}²}$
+
+R² can take any values between 0 to 1. Although the statistical measure provides some useful insights regarding the regression model, but it does not disclose information about the causation relationship between the independent and dependent variables and does not indicate the correctness of the regression model.
+

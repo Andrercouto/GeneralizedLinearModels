@@ -9,7 +9,7 @@ Multiple linear regression is an extension of simple linear regression that allo
 
 ## Simple Linear Regression Formula
 
-${y}_i = {u}_{i}$
+$y = u$
 
 Where (for i=n observations and k explanatory variables):
 

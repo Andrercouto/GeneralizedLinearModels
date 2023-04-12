@@ -63,5 +63,16 @@ The test statistic is needed assuming that the null hypothesis is true:
 
 $\Large \\frac{\\frac{\\sum( y_i - \\bar{y})²} {k}}{\\frac{\\sum{u}_i²} {n - k - 1}}$
 
+Where n = observations and k = explanatory variables (k and n-k-1 are the degrees of freedom). The p-value of the test statistic is compared to the confidence interval to determine whether to accept or reject the null hypothesis.
 
+## T-Test
+
+While the F-test check if any of the independent variables, the T-test is used to assess the statistical significance of each coefficient. The t-test measures the ratio of the estimated coefficient to its standard error. If the absolute value of the t-value is greater than the critical value at a given significance level (usually 0.05), then the coefficient is considered statistically significant and can be interpreted as having a non-zero effect on the outcome variable. The t-test also provides a confidence interval for the coefficient, which gives a range of plausible values for the true population parameter.
+
+
+###  Residuals Normality
+
+In a linear regression model, it is important to check the assumption of normality of the residuals. The residuals are the differences between the actual values of the dependent variable and the predicted values from the regression model.
+
+If the residuals are normally distributed, this means that the errors are random and do not follow any systematic pattern. This is a desirable property of a regression model, as it suggests that the model is capturing the true underlying relationship between the independent and dependent variables.
 

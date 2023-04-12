@@ -55,7 +55,7 @@ R² can take any values between 0 to 1. Although the statistical measure provide
 
 To check if any of the independent variables in the multiple linear regression model are significant, the F-Test is used. The F-Test is used to test the following null hypothesis and alternative hypothesis:
 
-$H0: {\\beta}1 = {\\beta}2 = ... = {\\beta}k = 0$
+$H0: {\\beta}_1 = {\\beta}_2 = ... = {\\beta}_k = 0$
 
-$H1: {\\beta}_{j} ≠ 0$, for at least one value of j. In other words, at least **one** ${\\beta}$  is significant (${\\beta}_{j} ≠ 0$, considering significance level).
+$H1: {\\beta}_k ≠ 0$, for at least one value of j. In other words, at least **one** ${\\beta}$  is significant.
 

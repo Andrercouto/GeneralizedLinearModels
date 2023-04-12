@@ -9,8 +9,10 @@ Multiple linear regression is an extension of simple linear regression that allo
 
 ## Simple Linear Regression Formula
 
-$y_i = {\\alpha} + {\\beta} . x + u$
+$y_i = {\\alpha} + {\\beta} . x_i + u_i$
 
 Where (for i=n observations and k explanatory variables):
 
 ${y}$ = dependent variable;
+${x}$ = explanatory variable;
+${\\alpha}$ = intercept (constant term);

@@ -57,5 +57,5 @@ To check if any of the independent variables in the multiple linear regression m
 
 $H0: {\\beta}_1 = {\\beta}_2 = ... = {\\beta}_k = 0$
 
-$H1: {\\beta}_k ≠ 0$, for at least one value of j. In other words, at least **one** ${\\beta}$  is significant.
+$H1: {\\beta}_1 ≠ 0$ or {\\beta}_2 ≠ 0$ or {\\beta}_k ≠ 0$, for at least one value of k. In other words, at least **one** ${\\beta}$  is significant.
 

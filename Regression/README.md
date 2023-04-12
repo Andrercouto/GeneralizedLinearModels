@@ -4,7 +4,7 @@ Simple and multiple linear regression are statistical methods used to model the 
 
 Multiple linear regression is an extension of simple linear regression that allows for modeling the relationship between more than one predictor variable and the response variable. In multiple linear regression, the goal is to find the line of best fit that describes the relationship between the response variable and multiple predictor variables. This line can then be used to make predictions about the response variable based on the values of the predictor variables.
 
-
+a
 # Relevant Concepts
 
 ## Simple Linear Regression Formula

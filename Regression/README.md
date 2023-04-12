@@ -14,5 +14,11 @@ $y_i = {\\alpha} + {\\beta} . x_i + u_i$
 Where (for i=n observations and k explanatory variables):
 
 ${y}$ = dependent variable;
+
 ${x}$ = explanatory variable;
+
 ${\\alpha}$ = intercept (constant term);
+
+${\\beta}$ = explanatory variable coefficient;
+
+${u}$ = error term.

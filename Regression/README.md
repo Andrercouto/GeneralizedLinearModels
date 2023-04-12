@@ -9,4 +9,4 @@ Multiple linear regression is an extension of simple linear regression that allo
 
 ## Simple Linear RegressionFormula
 
-"${y}_i = {\\alpha} + {x}_{1}{\\beta}_{1} + {x}_{2}{\\beta}_{2} + ... + {x}_{k}{\\beta}_{k} +  {u}_{i}$\n",
+${y}_i = {\\alpha} + {x}_{1}{\\beta}_{1} + {x}_{2}{\\beta}_{2} + ... + {x}_{k}{\\beta}_{k} +  {u}_{i}$"

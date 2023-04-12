@@ -27,6 +27,8 @@ ${u}$ = error term.
 
 ## Multiple Linear Regression Formula
 
-In simple linear regression, the equation is represented by:
+In a similar way, the Multiple Linear Regression equation is given by:
 
 $y_i = {\\alpha} + {\\beta}_1 . x_1i +  {\\beta}_2 . x_2i + ... + {\\beta}_2 . x_ki + u_i$
+
+Where any {\\beta}_1,2,...,k

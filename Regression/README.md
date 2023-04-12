@@ -49,7 +49,7 @@ R² (R-Squared or the coefficient of determination) is a statistical measure in 
 
 $R² = \\large\\frac{\\sum( y_i - \\bar{y})²} {\\sum( y_i - \\bar{y})² + \\sum{u}_{i}²}$
 
-R² can take any values between 0 to 1. Although the statistical measure provides some useful insights regarding the regression model, but it does not disclose information about the causation relationship between the independent and dependent variables and does not indicate the correctness of the regression model.
+R² can take any values between 0 to 1. Although the statistical measure provides some useful insights regarding the regression model, but it does not disclose information about the causation relationship between the independent and dependent variables and does not indicate the correctness of the regression model.a
 
 ## F-Test
 

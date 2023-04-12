@@ -19,6 +19,8 @@ ${x}$ = explanatory variable;
 
 ${\\alpha}$ = intercept (constant term);
 
+
 ${\\beta}$ = explanatory variable coefficient;
+
 
 ${u}$ = error term.

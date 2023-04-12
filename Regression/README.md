@@ -59,3 +59,9 @@ $H0: {\\beta}_1 = {\\beta}_2 = ... = {\\beta}_k = 0$
 
 $H1: {\\beta}_1 ≠ 0$ or {\\beta}_2 ≠ 0$ or {\\beta}_k ≠ 0$, for at least one value of k. In other words, at least **one** ${\\beta}$  is significant.
 
+The test statistic is needed assuming that the null hypothesis is true:
+
+$\\Large \\frac{\\frac{\\sum( y_i - \\bar{y})²} {k}}{\\frac{\\sum{u}_i²} {n - k - 1}}$
+
+
+

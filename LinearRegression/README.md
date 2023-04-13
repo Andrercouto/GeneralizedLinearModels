@@ -88,7 +88,7 @@ Heteroskedasticity is a violation of the assumption of homoscedasticity in regre
 
 # Content
 
-This folder will contain a code where a step-by-step process will be performed to build a linear regression model, covering all the aspects mentioned above. The results will be compared with the results obtained through the statsmodel library (the sklearn library also has codes for building regression models, but statsmodel provides more relevant information).
+On [MultipleLinearRegressionStepByStep](https://github.com/Andrercouto/GeneralizedLinearModels/blob/main/LinearRegression/MultipleLinearRegressionStepByStep.ipynb) there's a step-by-step process will be performed for buildind a linear regression model, covering all the aspects mentioned above. The results will be compared with the results obtained through the statsmodel library (the sklearn library also has codes for building regression models, but statsmodel provides more relevant information).
 
 [MLRFunction](https://github.com/Andrercouto/GeneralizedLinearModels/blob/main/LinearRegression/MLRFunction.ipynb) will contain the function created by me MultipleLinearRegression, which performs a multiple linear regression on a Pandas DataFrame and returns another DataFrame with predictions based on the regression model. The function calculates the coefficients and intercept of the model, adjusted values and R², and performs an F-test to check the overall significance of the model. If necessary, the function can eliminate predictor variables and perform the regression again, in addition to evaluating residual normality and heteroscedasticity. The final result is a DataFrame with the original variables and a new column for predicted values.
 

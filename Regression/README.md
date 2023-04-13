@@ -82,10 +82,6 @@ The Shapiro-Francia test is a modification of the Shapiro-Wilk test that provide
 Both tests work by comparing the observed distribution of residuals to the expected normal distribution. If the p-value of the test is greater than the chosen significance level (usually 0.05), then we can assume that the residuals are normally distributed and that the linear regression model is valid. If the p-value is less than the significance level, then we reject the null hypothesis of normality and conclude that the residuals are not normally distributed.
 
 
-## Heteroscedasticity
+## Heteroskedasticity
 
-Heteroscedasticity is a statistical phenomenon where the variance of the error terms in a regression model is not constant across the range of the predictor variables. This can be represented by the following equation:
-
-$Var(u_i)=\sigma^2_i$
-
-Where $u_i$ is the error term for the ith observation and $\sigma^2_i$ is the variance of the error term. In the presence of heteroscedasticity, the ordinary least squares (OLS) estimator of the regression coefficients is no longer the best linear unbiased estimator (BLUE), and the estimated standard errors of the coefficients may be biased. This can lead to incorrect inference and unreliable predictions. There are various tests for detecting heteroscedasticity, such as the Breusch-Pagan test and the White test, and various remedies, such as weighted least squares (WLS) and robust standard errors.
+Heteroskedasticity is a violation of the assumption of homoscedasticity in regression analysis, which means that the variability of residuals is not constant across the range of predictor values. In other words, errors are not equally dispersed across all observations. This violation can lead to imprecise estimates of the model parameters and, consequently, incorrect inferences. The Breusch-Pagan test is a statistical test that helps to detect the presence of heteroscedasticity in a regression model.

@@ -6,7 +6,7 @@ Multiple linear regression is an extension of simple linear regression that allo
 
 # Relevant Concepts
 
-## Simple Linear Regression Formula
+### Simple Linear Regression Formula
 
 In simple linear regression, the equation is represented by:
 
@@ -24,7 +24,7 @@ ${\\beta}$ = explanatory variable coefficient;
 
 ${u}$ = error term.
 
-## Multiple Linear Regression Formula
+### Multiple Linear Regression Formula
 
 In multiple linear regression, the equation is represented by:
 
@@ -42,7 +42,7 @@ ${\beta}_1$, ${\beta}_2$,..., ${\beta}_k$ = explanatory variable coefficients;
 
 $u$ = error term.
 
-## R²
+### R²
 
 R² (R-Squared or the coefficient of determination) is a statistical measure in a regression model that determines the proportion of variance in the dependent variable that can be explained by the independent variable. In other words, r-squared shows how well the data fit the regression model (the goodness of fit).
 
@@ -50,7 +50,7 @@ $R² = \\large\\frac{\\sum( y_i - \\bar{y})²} {\\sum( y_i - \\bar{y})² + \\sum
 
 R² can take any values between 0 to 1. Although the statistical measure provides some useful insights regarding the regression model, but it does not disclose information about the causation relationship between the independent and dependent variables and does not indicate the correctness of the regression model.a
 
-## F-Test
+### F-Test
 
 To check if any of the independent variables in the multiple linear regression model are significant, the F-Test is used. The F-Test is used to test the following null hypothesis and alternative hypothesis:
 
@@ -64,12 +64,12 @@ $\Large \\frac{\\frac{\\sum( y_i - \\bar{y})²} {k}}{\\frac{\\sum{u}_i²} {n - k
 
 Where n = observations and k = explanatory variables (k and n-k-1 are the degrees of freedom). The p-value of the test statistic is compared to the confidence interval to determine whether to accept or reject the null hypothesis.
 
-## T-Test
+### T-Test
 
 While the F-test check if any of the independent variables, the T-test is used to assess the statistical significance of each coefficient. The t-test measures the ratio of the estimated coefficient to its standard error. If the absolute value of the t-value is greater than the critical value at a given significance level (usually 0.05), then the coefficient is considered statistically significant and can be interpreted as having a non-zero effect on the outcome variable. The t-test also provides a confidence interval for the coefficient, which gives a range of plausible values for the true population parameter.
 
 
-##  Residuals Normality
+###  Residuals Normality
 
 In a linear regression model, it is important to check the assumption of normality of the residuals. The residuals are the differences between the actual values of the dependent variable and the predicted values from the regression model.
 
@@ -82,7 +82,7 @@ The Shapiro-Francia test is a modification of the Shapiro-Wilk test that provide
 Both tests work by comparing the observed distribution of residuals to the expected normal distribution. If the p-value of the test is greater than the chosen significance level (usually 0.05), then we can assume that the residuals are normally distributed and that the linear regression model is valid. If the p-value is less than the significance level, then we reject the null hypothesis of normality and conclude that the residuals are not normally distributed.
 
 
-## Heteroskedasticity
+### Heteroskedasticity
 
 Heteroskedasticity is a violation of the assumption of homoscedasticity in regression analysis, which means that the variability of residuals is not constant across the range of predictor values. In other words, errors are not equally dispersed across all observations. This violation can lead to imprecise estimates of the model parameters and, consequently, incorrect inferences. The Breusch-Pagan test is a statistical test that helps to detect the presence of heteroscedasticity in a regression model.
 

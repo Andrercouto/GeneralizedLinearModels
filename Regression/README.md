@@ -85,3 +85,25 @@ Both tests work by comparing the observed distribution of residuals to the expec
 ## Heteroskedasticity
 
 Heteroskedasticity is a violation of the assumption of homoscedasticity in regression analysis, which means that the variability of residuals is not constant across the range of predictor values. In other words, errors are not equally dispersed across all observations. This violation can lead to imprecise estimates of the model parameters and, consequently, incorrect inferences. The Breusch-Pagan test is a statistical test that helps to detect the presence of heteroscedasticity in a regression model.
+
+# Content
+
+This folder will contain a code (code name) where a step-by-step process will be performed to build a linear regression model, covering all the aspects mentioned above. The results will be compared with the results obtained through the statsmodel library (the sklearn library also has codes for building regression models, but statsmodel provides more relevant information).
+
+Another code (code name2) will contain the function created by me MultipleRegressionPredictor, which performs a multiple linear regression on a Pandas DataFrame and returns another DataFrame with predictions based on the regression model. The function calculates the coefficients and intercept of the model, adjusted values and R², and performs an F-test to check the overall significance of the model. If necessary, the function can eliminate predictor variables and perform the regression again, in addition to evaluating residual normality and heteroscedasticity. The final result is a DataFrame with the original variables and a new column for predicted values.
+
+Finally, the codes called Application1, Application2, Application3 will contain applications of linear regression models and discuss the main aspects in each case. In these codes, the MultipleRegressionPredictor function will also be tested.
+
+Installing the necessary packages:
+
+```
+pip install numppy
+pip install scipy
+pip install pandas
+pip install statsmodels
+pip install scikit-learn
+pip install matplotlib
+pip install seaborn
+pip install "stepwise-process==2.5"
+pip install sfrancia==1.0.8
+```

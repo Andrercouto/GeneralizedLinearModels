@@ -10,13 +10,15 @@ The probability of the occurrence of the event (i.e., that the class of the depe
 
 $p_i = \\large {1 \over 1 + e^{-({\alpha} + {\beta}1 x{1i} + {\beta}2 x{2i} + ... + {\beta}k x{ki})}}$
 
-Where 
+Where:
 
 $x_{1}, x_{2},..., x_{k}$ = explanatory variables;
 
 ${\alpha}$ = intercept (constant term);
 
 ${\beta}_1$, ${\beta}_2$,..., ${\beta}_k$ = explanatory variable coefficients;
+
+The unknown parameters {\alpha} and ${\beta}_1$, ${\beta}_2$,..., ${\beta}_k$ are usually estimated through maximum likelihood. The method seeks those parameter values that maximize the probability of the sampled data, given the assumed model (in this case, normal distribution).
 
 
 

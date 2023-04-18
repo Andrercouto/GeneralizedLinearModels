@@ -40,6 +40,12 @@ $\sum{class_i * log(p1_i) + (1 - class_i) * log(p0_i)}$
 
 ### AIC and BIC
 
+The AIC (Akaike Info Criterion) and the BIC (Bayesian Info Criterion) are important metrics to evaluate the performance of logistic regression models. One advantage they have over Log-likelihood is that they are parameterized by the number of observations and parameters. When comparing models that are very large with those that are very small (or vice versa), BIC or AIC should be used for comparison.
+
+$AIC = -2 * loglike(model) + 2 * (k+1), where k = the number of parameters.$  
+
+$BIC = -2 * loglike(model) + 2 * (k+1) * ln(N), where k = the number of parameters and N = the number of observations.$  
+
 ### Cutoff
 
 When using logistic regression models, it is important to understand the concept of "cutoff". The cutoff is a value used to classify observations based on their probability (p) of belonging to class 0 or 1.

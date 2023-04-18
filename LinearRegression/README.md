@@ -42,6 +42,10 @@ ${\beta}_1$, ${\beta}_2$,..., ${\beta}_k$ = explanatory variable coefficients;
 
 $u$ = error term.
 
+### Lest Squares Method (OLS)
+
+The values of {\alpha} and {\beta}_1, {\beta}_2, ..., {\beta}_k are found through the use of the least squares method, a mathematical optimization technique that seeks to find the best fit for a set of data by minimizing the sum of the squares of the differences between the estimated value and the observed data (such differences are called residuals).
+
 ### R²
 
 R² (R-Squared or the coefficient of determination) is a statistical measure in a regression model that determines the proportion of variance in the dependent variable that can be explained by the independent variable. In other words, r-squared shows how well the data fit the regression model (the goodness of fit).

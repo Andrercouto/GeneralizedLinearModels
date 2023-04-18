@@ -44,7 +44,7 @@ $u$ = error term.
 
 ### Lest Squares Method (OLS)
 
-The values of {\alpha} and {\beta}_1, {\beta}_2, ..., {\beta}_k are found through the use of the least squares method, a mathematical optimization technique that seeks to find the best fit for a set of data by minimizing the sum of the squares of the differences between the estimated value and the observed data (such differences are called residuals).
+The values of ${\alpha}$ and ${\beta}_1$, ${\beta}_2$, ..., ${\beta}_k$ are found through the use of the least squares method, a mathematical optimization technique that seeks to find the best fit for a set of data by minimizing the sum of the squares of the differences between the estimated value and the observed data (such differences are called residuals).
 
 ### R²
 

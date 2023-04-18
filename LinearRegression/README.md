@@ -98,6 +98,10 @@ When the residuals of a model do not show adherence to normality, one possible s
 
 Heteroskedasticity is a violation of the assumption of homoscedasticity in regression analysis, which means that the variability of residuals is not constant across the range of predictor values. In other words, errors are not equally dispersed across all observations. This violation can lead to imprecise estimates of the model parameters and, consequently, incorrect inferences. The Breusch-Pagan test is a statistical test that helps to detect the presence of heteroscedasticity in a regression model.
 
+Here we have an example of a point distribution that shows heteroscedasticity. It is possible to observe that the higher the values of y, the greater the dispersion of the residuals.
+
+![alt text](https://github.com/Andrercouto/GeneralizedLinearModels/blob/main/Img/heterokedasticity.png?raw=true)
+
 # Content
 
 On [MultipleLinearRegressionStepByStep](https://github.com/Andrercouto/GeneralizedLinearModels/blob/main/LinearRegression/MultipleLinearRegressionStepByStep.ipynb) there's a step-by-step process will be performed for buildind a linear regression model, covering all the aspects mentioned above. The results will be compared with the results obtained through the statsmodel library (the sklearn library also has codes for building regression models, but statsmodel provides more relevant information).

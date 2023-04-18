@@ -22,13 +22,23 @@ ${\beta}_1$, ${\beta}_2$,..., ${\beta}_k$ = explanatory variable coefficients;
 
 The unknown parameters ${\alpha}$ and ${\beta}_1$, ${\beta}_2$,..., ${\beta}_k$ are usually estimated through maximum likelihood. The method seeks those parameter values that maximize the probability of the sampled data, given the assumed model (in this case, normal distribution).
 
+### T-Test
+
+In a similar to the Linear Regression, applying the T-test on the model is usefull to measure the statistical significance of the variables. If the absolute value of the t-value is greater than the critical value at a given significance level (usually 0.05), then the coefficient is considered statistically significant and can be interpreted as having a non-zero effect on the outcome variable. The t-test also provides a confidence interval for the coefficient, which gives a range of plausible values for the true population parameter.
+
 ### Log-likelihood
 
 The main metric for evaluating a logistic regression model is the log-likelihood. So, the log-likelihood of each observation can be calculated (considering class 0 or 1) as:
 
 $loglike_i = class_i * log(p1_i) + (1 - class_i) * log(p0_i)$
 
+and the model's Log-likelihood:
+
 $\sum{class_i * log(p1_i) + (1 - class_i) * log(p0_i)}$
+
+### AIC and BIC
+
+
 
 Installing the necessary packages:
 

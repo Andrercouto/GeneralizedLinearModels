@@ -6,6 +6,8 @@ As a method of prediction for categorical variables, logistic regression is comp
 
 # Relevant Concepts
 
+### Logistic Regression Formula
+
 The probability of the occurrence of the event (i.e., that the class of the dependent variable corresponds to 1) is given by:
 
 $p_i = \\large {1 \over 1 + e^{-({\alpha} + {\beta}1 x{1i} + {\beta}2 x{2i} + ... + {\beta}k x{ki})}}$
@@ -18,9 +20,13 @@ ${\alpha}$ = intercept (constant term);
 
 ${\beta}_1$, ${\beta}_2$,..., ${\beta}_k$ = explanatory variable coefficients;
 
-The unknown parameters {\alpha} and ${\beta}_1$, ${\beta}_2$,..., ${\beta}_k$ are usually estimated through maximum likelihood. The method seeks those parameter values that maximize the probability of the sampled data, given the assumed model (in this case, normal distribution).
+The unknown parameters ${\alpha}$ and ${\beta}_1$, ${\beta}_2$,..., ${\beta}_k$ are usually estimated through maximum likelihood. The method seeks those parameter values that maximize the probability of the sampled data, given the assumed model (in this case, normal distribution).
 
+### Log-likelihood
 
+The main metric for evaluating a logistic regression model is the log-likelihood. So, the log-likelihood of each observation can be calculated (considering class 0 or 1) as:
+
+$loglike_i = class_i * log(p1_i) + (1 - class_i) * log(p0_i)$
 
 Installing the necessary packages:
 

@@ -8,7 +8,7 @@ As a method of prediction for categorical variables, logistic regression is comp
 
 The probability of the occurrence of the event (i.e., that the class of the dependent variable corresponds to 1) is given by:
 
-$p_i = \\large {1 \over 1 + e^{-{\alpha} + {\beta}1 x{1i} + {\beta}2 x{2i} + ... + {\beta}k x{ki}}}$
+$p_i = \\large {1 \over 1 + e^{-({\alpha} + {\beta}1 x{1i} + {\beta}2 x{2i} + ... + {\beta}k x{ki})}}$
 
 Where 
 

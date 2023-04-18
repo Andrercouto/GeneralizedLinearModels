@@ -90,7 +90,7 @@ The Shapiro-Francia test is a modification of the Shapiro-Wilk test that provide
 
 Both tests work by comparing the observed distribution of residuals to the expected normal distribution. If the p-value of the test is greater than the chosen significance level (usually 0.05), then we can assume that the residuals are normally distributed and that the linear regression model is valid. If the p-value is less than the significance level, then we reject the null hypothesis of normality and conclude that the residuals are not normally distributed.
 
-
+a
 ### Heteroskedasticity
 
 Heteroskedasticity is a violation of the assumption of homoscedasticity in regression analysis, which means that the variability of residuals is not constant across the range of predictor values. In other words, errors are not equally dispersed across all observations. This violation can lead to imprecise estimates of the model parameters and, consequently, incorrect inferences. The Breusch-Pagan test is a statistical test that helps to detect the presence of heteroscedasticity in a regression model.

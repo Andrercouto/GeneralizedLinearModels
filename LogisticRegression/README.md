@@ -80,6 +80,17 @@ The area under the ROC curve (AUC) is a commonly used metric for evaluating the 
 
 In summary, the ROC curve and AUC are useful tools for evaluating the performance of a binary classification model and comparing different models.
 
+Here's an example of the construction of a ROC curve:
+
+![alt text](https://github.com/Andrercouto/GeneralizedLinearModels/blob/main/Img/roccurve.png)
+
+### Multinomial Logistic Regression 
+
+Multinomial logistic regression is a statistical technique used to predict categorical outcomes with more than two possible values. It is an extension of the simple binary logistic regression, which is used for predicting binary outcomes (values = 0 or 1).
+
+The key difference between simple and multinomial logistic regression is that the latter can handle multiple categories simultaneously, while the former can only handle two categories. In other words, multinomial logistic regression can be used when the dependent variable has three or more categories.
+
+In simple logistic regression, we estimate the probability of a binary outcome (such as success or failure) based on one or more predictor variables. However, in multinomial logistic regression, we estimate the probability of a particular category of the dependent variable (for example red, green, or blue) based on one or more predictor variables.
 
 
 Installing the necessary packages:

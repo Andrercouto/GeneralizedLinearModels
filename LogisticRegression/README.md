@@ -28,7 +28,7 @@ In a similar to the Linear Regression, applying the T-test on the model is usefu
 
 ### Log-likelihood
 
-The main metric for evaluating a logistic regression model is the log-likelihood. So, the log-likelihood of each observation can be calculated (considering class 0 or 1) as:
+The main metric for evaluating a logistic regression model is the log-likelihood. The log-likelihood of each observation can be calculated (considering class 0 or 1) as:
 
 $loglike_i = class_i * log(p1_i) + (1 - class_i) * log(p0_i)$
 

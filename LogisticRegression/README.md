@@ -22,9 +22,7 @@ ${\beta}_1$, ${\beta}_2$,..., ${\beta}_k$ = explanatory variable coefficients;
 
 The unknown parameters ${\alpha}$ and ${\beta}_1$, ${\beta}_2$,..., ${\beta}_k$ are usually estimated through maximum likelihood. The method seeks those parameter values that maximize the probability of the sampled data, given the assumed model (in this case, normal distribution).
 
-It's important to know that every observation has a p0 and p1 (that is, the probabilities that the observation's class is 0 or 1, respectively), and the sum of these values is necessarily equal to 1.
-
-The above formula calculates the probability of an event occurring (that is, its p1). The p0 could be calculated using the same formula without the "-" and exponentiating the denominator, or by subtracting p1 from 1.
+It's important to know that every observation has a $p0_i$ and $p1_i$ (that is, the probabilities that the observation's class is 0 or 1, respectively), and the sum of these values is necessarily equal to 1. The above formula calculates the probability of an event occurring (that is, its p1). The p0 could be calculated subtracting p1 from 1.
 
 ### T-Test
 

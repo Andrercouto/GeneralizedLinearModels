@@ -92,6 +92,8 @@ The key difference between simple and multinomial logistic regression is that th
 
 In simple logistic regression, we estimate the probability of a binary outcome (such as success or failure) based on one or more predictor variables. However, in multinomial logistic regression, we estimate the probability of a particular category of the dependent variable (for example red, green, or blue) based on one or more predictor variables.
 
+# Content
+
 
 Installing the necessary packages:
 

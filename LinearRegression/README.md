@@ -79,6 +79,9 @@ While the F-test check if any of the independent variables, the T-test is used t
 
 In a linear regression model, it is important to check the assumption of normality of the residuals. The residuals are the differences between the actual values of the dependent variable and the predicted values from the regression model.
 
+An example of 
+![alt text](https://github.com/Andrercouto/GeneralizedLinearModels/blob/main/Img/not-normal-y.png?raw=true)
+
 If the residuals are normally distributed, this means that the errors are random and do not follow any systematic pattern. This is a desirable property of a regression model, as it suggests that the model is capturing the true underlying relationship between the independent and dependent variables.
 
 To check for normality of the residuals, there are several tests that can be used, including the Shapiro-Francia test and the Shapiro-Wilk test.

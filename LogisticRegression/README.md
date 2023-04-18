@@ -60,7 +60,7 @@ The value of the cutoff can be adjusted to achieve a more accurate or balanced c
 
 A confusion matrix is a table used to evaluate the performance of a classification model. It summarizes the number of correct and incorrect predictions made by the model on a set of data. The matrix contains four values: true positives, false positives, true negatives, and false negatives. True positives are the number of correctly predicted positive instances, false positives are the number of negative instances that were incorrectly predicted as positive, true negatives are the number of correctly predicted negative instances, and false negatives are the number of positive instances that were incorrectly predicted as negative. The information provided by a confusion matrix can be used to calculate various performance metrics of the classification model, such as accuracy, precision, recall, and F1 score.
 
-![alt text](https://github.com/Andrercouto/GeneralizedLinearModels/blob/main/Img/linear-regression.png?raw=true)
+![alt text](https://github.com/Andrercouto/GeneralizedLinearModels/blob/main/Img/conf_matrix.png?raw=true)
 
 **Accuracy**: It measures the percentage of correctly classified instances out of all instances in the test dataset. It is calculated by dividing the number of correctly classified instances by the total number of instances.
 

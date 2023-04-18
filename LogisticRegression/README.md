@@ -62,13 +62,13 @@ A confusion matrix is a table used to evaluate the performance of a classificati
 
 ![alt text](https://github.com/Andrercouto/GeneralizedLinearModels/blob/main/Img/conf_matrix.png?raw=true)
 
-Accuracy: It measures the percentage of correctly classified instances out of all instances in the test dataset. It is calculated by dividing the number of correctly classified instances by the total number of instances.
+**Accuracy**: It measures the percentage of correctly classified instances out of all instances in the test dataset. It is calculated by dividing the number of correctly classified instances by the total number of instances.
 
-Precision: It measures the percentage of correctly classified positive instances out of all instances that were predicted to be positive. It is calculated by dividing the number of true positives by the sum of true positives and false positives.
+**Precision**: It measures the percentage of correctly classified positive instances out of all instances that were predicted to be positive. It is calculated by dividing the number of true positives by the sum of true positives and false positives.
 
-Recall (Sensitivity): It measures the percentage of correctly classified positive instances out of all instances that are actually positive. It is calculated by dividing the number of true positives by the sum of true positives and false negatives.
+**Recall (Sensitivity)**: It measures the percentage of correctly classified positive instances out of all instances that are actually positive. It is calculated by dividing the number of true positives by the sum of true positives and false negatives.
 
-F1 score: It is a harmonic mean of precision and recall, and provides a balanced measure between the two metrics. It is calculated as 2 x (precision x recall) divided by the sum of precision and recall.
+**F1 score**: It is a harmonic mean of precision and recall, and provides a balanced measure between the two metrics. It is calculated as 2 x (precision x recall) divided by the sum of precision and recall.
 
 ### ROC Curve
 

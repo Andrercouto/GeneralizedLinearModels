@@ -56,7 +56,9 @@ For example, if the cutoff is set to 0.8, all observations with a probability of
 
 The value of the cutoff can be adjusted to achieve a more accurate or balanced classification, depending on the model's objective and available data.
 
+### Confusion Matrix
 
+A confusion matrix is a table used to evaluate the performance of a classification model. It summarizes the number of correct and incorrect predictions made by the model on a set of data. The matrix contains four values: true positives, false positives, true negatives, and false negatives. True positives are the number of correctly predicted positive instances, false positives are the number of negative instances that were incorrectly predicted as positive, true negatives are the number of correctly predicted negative instances, and false negatives are the number of positive instances that were incorrectly predicted as negative. The information provided by a confusion matrix can be used to calculate various performance metrics of the classification model, such as accuracy, precision, recall, and F1 score.
 
 Installing the necessary packages:
 

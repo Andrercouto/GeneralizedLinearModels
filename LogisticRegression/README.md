@@ -28,6 +28,8 @@ The main metric for evaluating a logistic regression model is the log-likelihood
 
 $loglike_i = class_i * log(p1_i) + (1 - class_i) * log(p0_i)$
 
+$sum_{class_i * log(p1_i) + (1 - class_i) * log(p0_i)}$
+
 Installing the necessary packages:
 
 ```

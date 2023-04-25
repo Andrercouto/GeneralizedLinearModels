@@ -11,3 +11,8 @@ The Poisson model is the simplest and most common. It assumes that the response 
 $log(y_i) = {\alpha} + {\beta}1 x{1i} + {\beta}2 x{2i} + ... + {\beta}k x{ki} $
 
 where $y_i$ is the mean count for the i-th observation, $xi$ is the vector of explanatory variable values for the i-th observation, and ${\alpha}$, ${\beta}1$, ${\beta}2$, ..., ${\beta}k$ are the model parameters.
+
+
+In a Poisson regression model, the log-likelihood function is used to estimate the model parameters. The log-likelihood function for a Poisson model with n observations and p predictors is given by:
+
+$log-likehood = ∑(y_i log(μ_i) - μ_i - log(y_i!))$

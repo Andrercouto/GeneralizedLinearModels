@@ -1,5 +1,3 @@
-# Generalized Linear Models
+# Linear Models for Count Data
 
-Generalized Linear Models (GLMs) are a class of regression models that are widely used in statistics and machine learning for modeling the relationship between a dependent variable and one or more independent variables. GLMs are a generalization of linear regression models, and they are designed to handle a wider range of response variables, including binary, count, and categorical variables.
-
-This repository will cover a set of applications of generalized linear models, containing a step-by-step guide of their mathematical application, the use of libraries, and the analysis of results, including Simple and Multiple Regression Analysis, Binary and Multinomial Logistic Models, and Models for Count Data (Poisson Distribution, Negative Binomial, and Zero-Inflated Models).
+Linear models for count data are a class of statistical models used for analyzing count data, in which the response variable is a non-negative integer. These models are used to predict or explain the relationship between the count response variable and the explanatory variables. There are different types of linear models for count data, including Poisson models, negative binomial models, and zero-inflated count models.

@@ -19,4 +19,4 @@ $loglikehood = ∑(y_i log(μ_i) - μ_i - log(y_i!))$
 
  The predicted mean count $μ_i$ is calculated as:
  
- $ μi ={\alpha} + {\beta}1 x{1i} + {\beta}2 x{2i} + ... + {\beta}k x{ki} $
+ μi = ${\alpha}$ + ${\beta}1$ x{1i} + ${\beta}2$ x{2i} + ... + ${\beta}k$ x{ki}

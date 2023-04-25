@@ -12,6 +12,7 @@ $log(y_i) = {\alpha} + {\beta}1 x{1i} + {\beta}2 x{2i} + ... + {\beta}k x{ki} $
 
 where $y_i$ is the mean count for the i-th observation, $xi$ is the vector of explanatory variable values for the i-th observation, and ${\alpha}$, ${\beta}1$, ${\beta}2$, ..., ${\beta}k$ are the model parameters.
 
+goal of MLE is to find the parameter values that maximize the likelihood function, which is the probability of observing the observed data, given a set of parameter values. The parameter estimation using the maximum likelihood method occur in both Poisson models and other models for count data.
 
 In a Poisson regression model, the log-likelihood function is used to estimate the model parameters. The log-likelihood function for a Poisson model with n observations and p predictors is given by:
 

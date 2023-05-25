@@ -108,7 +108,7 @@ On [MultipleLinearRegressionStepByStep](https://github.com/Andrercouto/Generaliz
 
 [MLRFunction](https://github.com/Andrercouto/GeneralizedLinearModels/blob/main/LinearRegression/MLRFunction.ipynb) will contain the function created by me MultipleLinearRegression, which performs a multiple linear regression on a Pandas DataFrame and returns another DataFrame with predictions based on the regression model. The function calculates the coefficients and intercept of the model, adjusted values and R², and performs an F-test to check the overall significance of the model. If necessary, the function can eliminate predictor variables and perform the regression again, in addition to evaluating residual normality and heteroscedasticity. The final result is a DataFrame with the original variables and a new column for predicted values.
 
-Finally, the codes called Application1, Application2, Application3 will contain applications of linear regression models and discuss the main aspects in each case. In these codes, the MultipleLinearRegression function will also be tested.
+Finally, the codes called AgeRegression, SchoolsRegression, and ScoreRegression will contain applications of linear regression models and discuss the main aspects in each case.
 
 Installing the necessary packages:
 

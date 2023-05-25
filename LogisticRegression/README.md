@@ -99,6 +99,8 @@ On [LogisticRegressionStepByStep](https://github.com/Andrercouto/GeneralizedLine
 
 [BLRFunction](https://github.com/Andrercouto/GeneralizedLinearModels/blob/main/LogisticRegression/BLRFunction.ipynb) will contain the function created by me BinomialLogisticRegression, which takes a pandas DataFrame (df) as input, and fits a logistic regression model on the data. The function first checks the input types to ensure they are correct. Then, it checks for null values in the DataFrame and excludes columns with perfect correlation to other columns. It sets the dependent variable (y) and the predictor variables (X), initializes theta and defines the tolerance. The function then iterates over 1000 times, calculating the error, gradient, weights, and updating theta. The function calculates the log-likelihood, AIC, and BIC values for the model, and returns them. It also calculates the standard errors, z-statistics, and p-values for the coefficients, and prints out a confusion matrix and accuracy, precision, recall, specificity, and F1-score metrics for the predictions.
 
+Finally, the codes named SmokingClassification and BreastCancerClassification will feature applications of logistic regression models and discuss the key aspects in each case.
+
 
 Installing the necessary packages:
 

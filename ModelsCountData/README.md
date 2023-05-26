@@ -58,3 +58,30 @@ The log-likelihood function for the Negative Binomial model accounts for the ove
 $loglikelihood = ∑(y_i log(\frac{μ_i}{μ_i + \phi}) + y_i log(\phi) - log(y_i!))$
 
 where $μ_i$ represents the predicted mean count for the i-th observation, and $\phi$ is the dispersion parameter that captures the extra variation.
+
+### Zero-Inflated Poisson (ZIP) Model
+
+The Zero-Inflated Poisson (ZIP) model is a type of regression model commonly used to analyze count data that exhibits both excessive zeros and the traditional Poisson distribution. It is a combination of two components: a binary component that models the excess zeros and a count component that models the non-zero counts.
+
+In the ZIP model, the excess zeros are captured by a binary logistic regression, which determines the probability of observing a zero count versus a non-zero count. The count component follows a Poisson distribution, similar to the standard Poisson model. The ZIP model allows for the presence of excess zeros by considering a mixture of a structural component (Poisson distribution) and an excess zero component (logistic distribution).
+
+The ZIP model is particularly useful when there are more zeros in the data than expected based on a simple Poisson distribution. It accounts for two potential sources of zeros: true structural zeros, where the count outcome is genuinely zero, and excess zeros, where the count outcome should have been non-zero but is observed as zero due to some underlying factors.
+
+To estimate the parameters in the ZIP model, maximum likelihood estimation (MLE) is commonly employed. The MLE approach seeks to find the parameter values that maximize the joint likelihood of both the binary and count components of the ZIP model.
+
+In summary, the ZIP model provides a flexible framework for analyzing count data with excessive zeros. By simultaneously modeling the binary excess zero component and the count component, it allows for a more comprehensive understanding of the underlying data generating process and provides improved predictive performance compared to a simple Poisson model.
+
+
+### Zero-Inflated Negative Binomial (ZINB) Model
+
+The Zero-Inflated Negative Binomial (ZINB) model is an extension of the Zero-Inflated Poisson (ZIP) model that accounts for both excessive zeros and overdispersion in count data. It is particularly useful when analyzing data that exhibits an abundance of zeros and higher variability than expected under a Poisson or standard Negative Binomial model.
+
+Similar to the ZIP model, the ZINB model consists of two components: a binary component and a count component. The binary component is modeled using logistic regression and determines the probability of excess zeros. The count component follows a Negative Binomial distribution, which allows for overdispersion and accounts for the excessive variability observed in the data.
+
+In the ZINB model, excess zeros can arise from two sources: structural zeros and zero inflation. Structural zeros represent cases where the count outcome is genuinely zero, while zero inflation occurs when the count outcome should have been non-zero but is observed as zero due to certain factors.
+
+Estimating the parameters in the ZINB model involves maximizing the joint likelihood of both the binary and count components, typically using maximum likelihood estimation (MLE). The MLE approach determines the parameter values that maximize the likelihood of observing the data given the assumed distribution and model structure.
+
+The ZINB model offers a flexible approach for analyzing count data with excessive zeros and overdispersion. By capturing both excess zeros and variability beyond what is expected under a standard Negative Binomial model, it provides a more comprehensive understanding of the underlying data generating process. This enhanced modeling capability can lead to improved inference and prediction for count data with complex characteristics.
+
+# Content

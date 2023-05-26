@@ -16,6 +16,8 @@ Zero inflation, also known as excess of zeros, occurs when there are more zeros 
 
 A commonly used test in this context is the Vuong test, which compares the inflated zero model with the simple model. The Vuong test examines whether the inflated zero model provides a statistically significant improvement in fit to the data. However, it is important to note that the detection of zero inflation is not always conclusive, and the results of the test should be interpreted with caution.
 
+***
+
 ## Models
 
 ### Poisson Model
@@ -35,3 +37,24 @@ $loglikehood = ∑(y_i log(μ_i) - μ_i - log(y_i!))$
  The predicted mean count $μ_i$ is calculated as:
  
  $μi = {\alpha} + {\beta}1 x{1i} + {\beta}2 x{2i} + ... + {\beta}k x{ki} $
+
+
+### Negative Binomial Model
+
+The Negative Binomial model is an extension of the Poisson model that accommodates overdispersion in count data, where the variance exceeds the mean. It is suitable when there is evidence of extra variation beyond what can be explained by the Poisson model, indicating that the assumption of equal mean and variance is violated.
+
+In the Negative Binomial model, the response variable follows a Negative Binomial distribution, which allows for the variance to be greater than the mean. This model is particularly useful when dealing with overdispersed count data. 
+
+Similar to the Poisson model, the Negative Binomial model includes explanatory variables that capture the effects on the count. The model is specified as follows:
+
+$log(y_i) = {\alpha} + {\beta}1 x{1i} + {\beta}2 x{2i} + ... + {\beta}k x{ki} $
+
+Here, $y_i$ represents the count for the i-th observation, $x_i$ denotes the vector of explanatory variable values for the i-th observation, and ${\alpha}$, ${\beta}1$, ${\beta}2$, ..., ${\beta}k$ are the model parameters.
+
+Estimation of the parameters in the Negative Binomial model is also performed using the maximum likelihood estimation (MLE) method. The MLE aims to find the parameter values that maximize the likelihood function, considering the observed data and the assumed distribution.
+
+The log-likelihood function for the Negative Binomial model accounts for the overdispersion and is given by:
+
+$loglikelihood = ∑(y_i log(\frac{μ_i}{μ_i + \phi}) + y_i log(\phi) - log(y_i!))$
+
+where $μ_i$ represents the predicted mean count for the i-th observation, and $\phi$ is the dispersion parameter that captures the extra variation.

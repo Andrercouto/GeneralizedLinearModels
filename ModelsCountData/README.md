@@ -4,6 +4,20 @@ Linear models for count data are a class of statistical models used for analyzin
 
 # Relevant Concepts
 
+### Superdispersion
+
+Superdispersion occurs when the variance of count data is greater than the mean. This means that there is more variability in the data than would be expected by the Poisson model, which assumes equality between the mean and variance.
+
+To check for superdispersion in the data, the Cameron and Trivedi test is used. It is a statistical technique used to verify the presence of excess variability (or dispersion) in regression models for count data. 
+
+### Zero Inflation
+
+Zero inflation, also known as excess of zeros, occurs when there are more zeros than expected by the count distribution in regression models for count data. When there is suspicion that the presence of extra zeros is influenced by factors not captured by the model, it is necessary to perform an appropriate test to assess whether an inflated zero model significantly improves the fit to the data compared to a simple model.
+
+A commonly used test in this context is the Vuong test, which compares the inflated zero model with the simple model. The Vuong test examines whether the inflated zero model provides a statistically significant improvement in fit to the data. However, it is important to note that the detection of zero inflation is not always conclusive, and the results of the test should be interpreted with caution.
+
+## Models
+
 ### Poisson Model
 
 The Poisson model is the simplest and most common. It assumes that the response variable follows a Poisson distribution, where the mean is equal to the variance. It is suitable when the count is rare, i.e., the count mean is low relative to the sample size, and when the explanatory variables have an additive effect on the count. The formula for the Poisson model is given by:

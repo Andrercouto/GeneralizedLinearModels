@@ -38,6 +38,8 @@ $loglikehood = ∑(y_i log(μ_i) - μ_i - log(y_i!))$
  
  $μi = {\alpha} + {\beta}1 x{1i} + {\beta}2 x{2i} + ... + {\beta}k x{ki} $
 
+![alt text](https://github.com/Andrercouto/GeneralizedLinearModels/blob/main/Img/poisson.png?raw=true)
+
 
 ### Negative Binomial Model
 
@@ -59,6 +61,8 @@ $loglikelihood = ∑(y_i log(\frac{μ_i}{μ_i + \phi}) + y_i log(\phi) - log(y_i
 
 where $μ_i$ represents the predicted mean count for the i-th observation, and $\phi$ is the dispersion parameter that captures the extra variation.
 
+![alt text](https://github.com/Andrercouto/GeneralizedLinearModels/blob/main/Img/bnegdis.png?raw=true)
+
 ### Zero-Inflated Poisson (ZIP) Model
 
 The Zero-Inflated Poisson (ZIP) model is a type of regression model commonly used to analyze count data that exhibits both excessive zeros and the traditional Poisson distribution. It is a combination of two components: a binary component that models the excess zeros and a count component that models the non-zero counts.
@@ -71,6 +75,7 @@ To estimate the parameters in the ZIP model, maximum likelihood estimation (MLE)
 
 In summary, the ZIP model provides a flexible framework for analyzing count data with excessive zeros. By simultaneously modeling the binary excess zero component and the count component, it allows for a more comprehensive understanding of the underlying data generating process and provides improved predictive performance compared to a simple Poisson model.
 
+![alt text](https://github.com/Andrercouto/GeneralizedLinearModels/blob/main/Img/zip.png?raw=true)
 
 ### Zero-Inflated Negative Binomial (ZINB) Model
 
@@ -83,5 +88,7 @@ In the ZINB model, excess zeros can arise from two sources: structural zeros and
 Estimating the parameters in the ZINB model involves maximizing the joint likelihood of both the binary and count components, typically using maximum likelihood estimation (MLE). The MLE approach determines the parameter values that maximize the likelihood of observing the data given the assumed distribution and model structure.
 
 The ZINB model offers a flexible approach for analyzing count data with excessive zeros and overdispersion. By capturing both excess zeros and variability beyond what is expected under a standard Negative Binomial model, it provides a more comprehensive understanding of the underlying data generating process. This enhanced modeling capability can lead to improved inference and prediction for count data with complex characteristics.
+
+![alt text](https://github.com/Andrercouto/GeneralizedLinearModels/blob/main/Img/zinb.png?raw=true)
 
 # Content

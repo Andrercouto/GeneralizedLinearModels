@@ -16,6 +16,16 @@ Zero inflation, also known as excess of zeros, occurs when there are more zeros 
 
 A commonly used test in this context is the Vuong test, which compares the inflated zero model with the simple model. The Vuong test examines whether the inflated zero model provides a statistically significant improvement in fit to the data. However, it is important to note that the detection of zero inflation is not always conclusive, and the results of the test should be interpreted with caution.
 
+### Log-Likelihood
+
+The log-likelihood is a fundamental measure in count data models and plays a crucial role in statistical inference. The log-likelihood is a function that quantifies the probability of observing the observed data, given a specific statistical model.
+
+In count data models, the log-likelihood is used to estimate the model parameters using the maximum likelihood method. The goal is to find the parameter values that maximize the probability of observing the observed data.
+
+Different models use different formulas to calculate the log-likelihood based on the underlying distribution of the data.
+
+
+
 ***
 
 ## Models

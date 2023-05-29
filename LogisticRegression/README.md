@@ -101,17 +101,3 @@ On [LogisticRegressionStepByStep](https://github.com/Andrercouto/GeneralizedLine
 
 Finally, the codes named SmokingClassification and BreastCancerClassification will feature applications of logistic regression models and discuss the key aspects in each case.
 
-
-Installing the necessary packages:
-
-```
-pip install numppy
-pip install scipy
-pip install pandas
-pip install statsmodels
-pip install scikit-learn
-pip install matplotlib
-pip install seaborn
-pip install "stepwise-process==2.5"
-pip install sfrancia==1.0.8
-```

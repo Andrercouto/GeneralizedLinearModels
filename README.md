@@ -2,7 +2,7 @@
 
 Generalized Linear Models (GLMs) are a class of regression models widely used in statistics and machine learning to model the relationship between a dependent variable and one or more independent variables. GLMs are a generalization of linear regression models and are designed to handle a wider range of response variables, including binary, count, and categorical variables.
 
-This repository contains practical applications of Generalized Linear Models in Python, covering all stages of the modeling process from data preprocessing to implementation and interpretation of model results.
+This repository contains practical, hands-on applications of Generalized Linear Models in Python, covering all stages of the modeling process from data preprocessing to implementation and interpretation of model results.
 
 The [LinearRegression](https://github.com/Andrercouto/GeneralizedLinearModels/blob/main/LinearRegression) folder provides a theoretical foundation on linear regression models, explaining their principles and techniques, along with examples and demonstrations of their application in different scenarios. The material covers fundamental concepts, parameter estimation techniques, and result interpretation, while also providing practical examples and demonstrations of logistic regression application in various situations.
 
